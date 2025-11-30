@@ -25,7 +25,6 @@ usethis::edit_git_config()
 # Navigate to the bottom, create, and save the token
 usethis::create_github_token()
 
-
 # Store the PAT to Connect
 # This will allow you to synch between RStudio and GitHub
 # You may need to update your xCode on MAC in order to enable the gitcreds_set
@@ -33,6 +32,3 @@ gitcreds::gitcreds_set()
 
 # Input your token - this will connect RStudio to GitHub, but not a specific project
 usethis::use_github()
-
-library(tidyverse)
-datasets::airmiles%>%tibble()
