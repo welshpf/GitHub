@@ -42,3 +42,4 @@ df <- datasets::airmiles %>%
 df %>% 
       ggplot(aes(x = miles)) +
       geom_histogram(bins = 30)
+datasets::airmiles%>%tibble()
