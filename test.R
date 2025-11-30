@@ -35,3 +35,4 @@ gitcreds::gitcreds_set()
 usethis::use_github()
 
 library(tidyverse)
+datasets::airmiles%>%tibble()
